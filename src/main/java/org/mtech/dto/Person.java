@@ -1,4 +1,4 @@
-package org.example;
+package org.mtech.dto;
 
 import lombok.Builder;
 import lombok.Data;
@@ -7,6 +7,7 @@ import lombok.Data;
 @Builder
 public class Person {
 
+    private Integer id;
     private String firstName;
     private String lastName;
 }
