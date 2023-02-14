@@ -1,4 +1,4 @@
-package org.mtech.app;
+package org.mtech;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

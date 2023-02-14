@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class PersonControllerTest extends BaseMockMvcTest {
 
     @Test
-    void should_create_person() {
+    void can_create_get_update_delete_person() {
         // GIVEN
         NewPerson newPerson = NewPerson.builder()
                 .firstName("Matt")
